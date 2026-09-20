@@ -1,0 +1,11 @@
+*.venv
+.env
+
+**/images
+**/db
+**.json
+**.txt
+**.log
+**.md
+**.lock
+**/__pycache__
