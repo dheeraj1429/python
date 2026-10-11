@@ -1,8 +1,7 @@
 from fastapi import Depends
 from typing import Annotated
 from sqlalchemy import create_engine
-from sqlalchemy.orm import Session
-from sqlalchemy.orm import sessionmaker, DeclarativeBase
+from sqlalchemy.orm import Session, sessionmaker, DeclarativeBase
 
 DATABASE_URL: set = "mysql+pymysql://root:root@localhost:3306/learning"
 
